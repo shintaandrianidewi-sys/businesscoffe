@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kopi Senja | Biji Kopi Premium Nusantara & Tips Brewing</title>
+    <meta name="description" content="Kopi Senja menyajikan biji kopi bervariasi Arabica, Robusta, dan House Blend. Dapatkan E-book tips brewing gratis dan layanan digital marketing untuk bisnis kopi Anda.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="logo">Kopi Senja</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu Kopi</a></li>
+                    <li><a href="#story">Strategi</a></li>
+                    <li><a href="#tips">E-book Gratis</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Setiap Seduhan Punya Cerita.</h2>
+            <p>Temukan 12 varian Arabica single origin yang cocok untuk filter dan espresso, didukung oleh strategi digital marketing terdepan.</p>
+            <a href="#menu" class="cta-button">Jelajahi Menu Kami</a>
+        </div>
+    </section>
+
+    <section id="menu" class="coffee-menu">
+        <div class="container">
+            <h3>Variasi Biji Kopi Pilihan Kami</h3>
+            <div class="menu-grid">
+                
+                <div class="menu-card">
+                    <img src="mandailing.jpg" alt="Mandailing Arabica">
+                    <h4>Arabica Mandailing A++</h4>
+                    <p>Notes: Herbal, Rempah, dan Medium Body. Ideal untuk V60 dan French Press.</p>
+                    <a href="#" class="btn-detail">Lihat Detail Digital Campaign</a>
+                </div>
+
+                <div class="menu-card">
+                    <img src="robusta-lampung.jpg" alt="Robusta Lampung">
+                    <h4>Robusta Lampung Premium</h4>
+                    <p>Notes: Body Tebal, Dark Chocolate, Aroma Kuat. Terbaik untuk Espresso atau Kopi Susu.</p>
+                    <a href="#" class="btn-detail">Lihat Detail Digital Campaign</a>
+                </div>
+
+                <div class="menu-card">
+                    <img src="house-blend.jpg" alt="House Blend Senja">
+                    <h4>Senja House Blend (Seasonal)</h4>
+                    <p>Kombinasi Arabica-Robusta untuk keseimbangan rasa, aroma, dan harga terbaik. Cocok untuk ngopi harian.</p>
+                    <a href="#" class="btn-detail">Lihat Detail Digital Campaign</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="story" class="coffee-story">
+        <div class="container">
+            <h3>Strategi Digital Marketing Kami</h3>
+            <div class="strategy-points">
+                <div class="strategy-item">
+                    <h4>🎬 Konten Video 'Brewing Tips'</h4>
+                    <p>Strategi untuk menarik engagement di YouTube dan Instagram Reels dengan video tutorial singkat dan memuaskan.</p>
+                </div>
+                <div class="strategy-item">
+                    <h4>🗺️ Storytelling Asal Kopi</h4>
+                    <p>Memanfaatkan blog (SEO) dan Carousel Instagram untuk berbagi cerita petani, varietas, dan proses pasca-panen.</p>
+                </div>
+                <div class="strategy-item">
+                    <h4>🎯 Iklan Berbasis Minat Khusus</h4>
+                    <p>Targeting iklan berbayar (Meta Ads) kepada audiens yang tertarik pada alat brewing (V60, Aeropress) dan kopi spesialis.</p>
+                </div>
+            </div>
+            <a href="#contact" class="cta-button secondary">Pesan Kopi dan Mulai Campaign Digital Anda</a>
+        </div>
+    </section>
+
+    <section id="tips" class="brewing-tips">
+        <div class="container">
+            <h3>E-book Tips Brewing Sempurna Gratis!</h3>
+            <div class="tip-content">
+                <p>Kunci kenikmatan kopi terletak pada detail. Dapatkan E-Book gratis kami tentang rasio air dan kopi yang ideal untuk setiap metode. Daftar sekarang!</p>
+                <form>
+                    <input type="email" placeholder="Masukkan Email Anda untuk E-Book Gratis" required>
+                    <button type="submit">Download Sekarang</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-form">
+        <div class="container">
+            <h3>Hubungi Tim Kami (Coffee & Marketing)</h3>
+            <form>
+                <input type="text" placeholder="Nama Anda" required>
+                <input type="email" placeholder="Email Kontak" required>
+                <textarea placeholder="Pesan Anda (Pesanan atau Konsultasi Marketing)" rows="5" required></textarea>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Kopi Senja. Rasa Terbaik, Marketing Cerdas.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
