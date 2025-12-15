@@ -1,0 +1,6 @@
+</div> <div class="color-switcher">
+            <button id="theme-default" class="color-option default" title="Tema Biru/Mint"></button>
+            <button id="theme-classic" class="color-option classic" title="Tema Cokelat Klasik"></button>
+            <button id="theme-red" class="color-option red" title="Tema Merah/Emas"></button>
+        </div>
+        </header>
