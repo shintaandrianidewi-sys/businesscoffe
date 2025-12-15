@@ -1,0 +1,20 @@
+// JavaScript untuk Smooth Scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href');
+        document.querySelector(targetId).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Contoh sederhana feedback saat tombol download E-book diklik
+document.querySelector('.tip-content form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert("Terima kasih! E-Book Tips Brewing telah terkirim ke email Anda. Cek folder spam juga ya!");
+    this.reset(); // Mengosongkan form setelah diklik
+});
+
+console.log("Website Kopi Senja berhasil dimuat dan siap beraksi!");
